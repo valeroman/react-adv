@@ -15,4 +15,7 @@ Comandos git
     si borramos un archivo y lo queremos recuperar
         git checkout -- .
 
+    crear una nueva rama
+        git checkout -b lazyload
+
     
