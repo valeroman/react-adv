@@ -5,3 +5,14 @@ React-Router-Dom
     doc => https://v5.reactrouter.com/web/guides/quick-start
     yarn add react-router-dom
     yarn add -D @types/react-router-dom
+
+Comandos git
+    git add .
+    git commit -m "Proyecto Inicial Listo"
+    git branch
+    git branch -M main
+
+    si borramos un archivo y lo queremos recuperar
+        git checkout -- .
+
+    
