@@ -18,4 +18,6 @@ Comandos git
     crear una nueva rama
         git checkout -b lazyload
 
+        git checkout -b lazyload-nested
+
     

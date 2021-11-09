@@ -18,9 +18,9 @@ export const Navigation = () => {
               {
                 routes.map(({ name, path }) => (
                   <li key={ path }>
-                    <NavLink 
-                      end 
+                    <NavLink  
                       to={ path }
+                      // className="nav-active"
                       style={({ isActive }) => ({ color: isActive ? "grey" : "white" })}
                     >
                       { name }
