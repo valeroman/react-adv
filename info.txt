@@ -1,6 +1,10 @@
 Crear el proyecto react-app
     npx create-react-app react-app --template typescript
 
+    reconstruir el proyecto yarn
+
+    correr el proyecto yarn start
+
 React-Router-Dom
     doc => https://v5.reactrouter.com/web/guides/quick-start
     yarn add react-router-dom
@@ -37,6 +41,8 @@ Comandos git
         git push --set-upstream origin lazyload
 
         git checkout -b component-compound
+
+        git checkout -b component-extend-styles
 
 
 
