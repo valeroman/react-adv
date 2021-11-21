@@ -13,25 +13,68 @@ export const Navigation = () => {
             <img src={ logo } alt="React Logo" />
           <ul>
             <li>
-              <NavLink to="/register" end>Register Page</NavLink>
+              <NavLink 
+                to="/register" 
+                end
+                className={({ isActive }) => 'nav-active' + (isActive ? 'active' : '')}
+                
+              >
+                Register Page
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/formik-basic" end>Formik Basic</NavLink>
+              <NavLink 
+                to="/formik-basic" 
+                end 
+                className={({ isActive }) => 'nav-active' + (isActive ? 'active' : '')}
+              >
+                Formik Basic
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/formik-yup" end>Formik Yup</NavLink>
+              <NavLink 
+                to="/formik-yup" 
+                end
+                className={({ isActive }) => 'nav-active' + (isActive ? 'active' : '')}
+              >
+                Formik Yup
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/formik-components" end>Formik Components</NavLink>
+              <NavLink 
+                to="/formik-components" 
+                end
+                className={({ isActive }) => 'nav-active' + (isActive ? 'active' : '')}
+              >
+                Formik Components
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/formik-abstraction" end>Formik Abstraction</NavLink>
+              <NavLink 
+                to="/formik-abstraction" 
+                end
+                className={({ isActive }) => 'nav-active' + (isActive ? 'active' : '')}
+              >
+                Formik Abstraction
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/formik-register" end>Register Formik</NavLink>
+              <NavLink 
+                to="/formik-register" 
+                end
+                className={({ isActive }) => 'nav-active' + (isActive ? 'active' : '')}
+              >
+                Register Formik
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/dynamic-form" end>Dynamic Form</NavLink>
+              <NavLink 
+                to="/dynamic-form" 
+                end
+                className={({ isActive }) => 'nav-active' + (isActive ? 'active' : '')}
+              >
+                Dynamic Form
+              </NavLink>
             </li>
           </ul>
         </nav>
